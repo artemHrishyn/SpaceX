@@ -1,0 +1,28 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 200px;
+    margin-bottom: 121px;
+    
+    img{
+        max-width: 140px;
+    }
+}
+
+
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    list-style: none;
+    font-size: 12px;
+}
+
+.personal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    list-style: none;
+    color: #808080;
+    font-size: 12px;
+}
