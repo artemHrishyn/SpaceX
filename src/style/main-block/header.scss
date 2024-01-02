@@ -6,6 +6,7 @@ header{
     
     img{
         max-width: 140px;
+        cursor: pointer;
     }
 }
 
@@ -16,6 +17,7 @@ header{
     justify-content: space-between;
     list-style: none;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .personal{
@@ -25,4 +27,5 @@ header{
     list-style: none;
     color: #808080;
     font-size: 12px;
+    cursor: pointer;
 }
